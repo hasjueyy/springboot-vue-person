@@ -1,5 +1,6 @@
 <template>
-  <el-main style="padding: 10px">
+  <
+  el-main style="padding: 10px">
     <div style="margin: 10px">
       <el-button type="primary">新增</el-button>
       <el-button type="primary">导入</el-button>
@@ -9,9 +10,7 @@
 
 
     </div>
-    <div style="padding: 10px">
 
-    </div>
 
     <el-table :data="tableData" stripe style="width: 100%" border>
       <el-table-column prop="date" label="Date" sortable/>
